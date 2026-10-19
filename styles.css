@@ -1,0 +1,113 @@
+:root {
+  --navy: #17324d;
+  --gold: #d7a43b;
+  --cream: #fbf4e8;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  border-top: 10px solid var(--gold);
+  background: var(--cream);
+  color: var(--navy);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+#page-header {
+  max-width: 960px;
+  margin: 0 auto 28px;
+  padding: 36px 24px;
+  border: 3px solid var(--gold);
+  border-radius: 16px;
+  background: var(--navy);
+  color: var(--cream);
+  text-align: center;
+}
+
+#page-header h1 {
+  margin: 0 0 8px;
+  color: var(--white);
+  font-size: 2.25rem;
+}
+
+#page-header p {
+  margin: 0;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.content-section {
+  margin: 20px 0;
+  padding: 24px;
+  border: 2px solid var(--gold);
+  border-left: 8px solid var(--navy);
+  border-radius: 12px;
+  background: var(--white);
+}
+
+h2 {
+  margin: 0 0 12px;
+  color: var(--navy);
+}
+
+h3 {
+  margin-top: 20px;
+  color: #9b5d13;
+}
+
+.dish-list {
+  margin: 12px 0 0;
+  padding: 16px 16px 16px 40px;
+  border: 1px solid var(--gold);
+  border-radius: 8px;
+  background: var(--cream);
+}
+
+figure {
+  max-width: 680px;
+  margin: 20px auto;
+  padding: 12px;
+  border: 2px solid var(--navy);
+  border-radius: 12px;
+  background: var(--cream);
+}
+
+figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+figcaption {
+  margin-top: 10px;
+  color: var(--navy);
+  font-size: 0.9rem;
+}
+
+a {
+  color: #8a510d;
+  font-weight: bold;
+}
+
+footer {
+  max-width: 960px;
+  margin: 32px auto 0;
+  padding: 16px;
+  border-top: 2px solid var(--gold);
+  color: var(--navy);
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
