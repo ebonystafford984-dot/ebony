@@ -1,18 +1,10 @@
 /* Palette: navy, warm gold, cream, and white. Spacing uses 8px steps. */
 :root {
-  --navy: #17324d;
-  --gold: #d7a43b;
-  --cream: #fbf4e8;
-  --white: #ffffff;
-  --ink: #243342;
-  --space-1: 8px;
-  --space-2: 16px;
-  --space-3: 24px;
-  --space-4: 32px;
-  --space-5: 40px;
-  --space-6: 48px;
+  --navy: #17324d; --gold: #d7a43b; --cream: #fbf4e8; --white: #ffffff; --ink: #243342;
+  --space-1: 8px; --space-2: 16px; --space-3: 24px; --space-4: 32px; --space-5: 40px; --space-6: 48px;
 }
 * { box-sizing: border-box; }
+html { overflow-x: clip; }
 body { margin: 0; border-top: var(--space-1) solid var(--gold); background: var(--cream); color: var(--ink); font-family: "Source Sans 3", Arial, sans-serif; font-size: 1rem; line-height: 1.6; }
 #page-header { padding: var(--space-3) var(--space-2); background: var(--navy); color: var(--cream); text-align: center; }
 .site-header { max-width: 1120px; margin: 0 auto; }
