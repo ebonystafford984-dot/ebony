@@ -3,44 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A few examples of what I have made or am learning to make.">
   <title>Projects / Work | My Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Projects / Work</h1>
-    <p>A few examples of what I have made or am learning to make.</p>
-    <nav aria-label="Main navigation">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html" aria-current="page">Projects / Work</a></li>
-        <li><a href="about.html">About / Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section>
-      <h2>Featured Projects</h2>
-      <article>
-        <h3>Steak 48 Favorite Place Page</h3>
-        <p>A semantic HTML page describing a favorite restaurant, favorite dishes, and a food photo.</p>
-        <p><a href="steak-48.html">View the Steak 48 page</a></p>
-      </article>
-      <article>
-        <h3>More Work Coming Soon</h3>
-        <p>[Add another project here when you are ready.]</p>
-      </article>
-    </section>
-    <section>
-      <h2>Skills I’m Practicing</h2>
-      <ul>
-        <li>Writing clear HTML</li>
-        <li>Organizing information into sections</li>
-        <li>[Add another skill]</li>
-      </ul>
-    </section>
+  <header id="page-header"><div class="site-header">
+    <h1>Projects / Work</h1><p>A few examples of what I have made or am learning to make.</p>
+    <nav aria-label="Main navigation"><ul class="nav-list">
+      <li><a href="index.html">Home</a></li><li><a href="projects.html" aria-current="page">Projects / Work</a></li><li><a href="about.html">About / Contact</a></li>
+    </ul></nav>
+  </div></header>
+  <main class="page-content">
+    <section class="content-section"><h2>Featured Projects</h2><div class="project-grid">
+      <article class="project-card"><h3>Steak 48 Favorite Place Page</h3><p>A semantic HTML page describing a favorite restaurant, favorite dishes, and a food photo.</p><p><a href="steak-48.html">View the Steak 48 page</a></p></article>
+      <article class="project-card"><h3>More Work Coming Soon</h3><p>[Add another project here when you are ready.]</p></article>
+    </div></section>
+    <section class="content-section"><h2>Skills I’m Practicing</h2><ul class="interest-list">
+      <li>Writing clear HTML</li><li>Organizing information into sections</li><li>[Add another skill]</li>
+    </ul></section>
   </main>
-  <footer>
-    <p>© [Year] [Your Name]</p>
-  </footer>
+  <footer class="site-footer"><p>© [Year] [Your Name]</p></footer>
 </body>
 </html>
